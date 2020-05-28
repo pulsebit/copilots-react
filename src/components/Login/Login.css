@@ -1,0 +1,50 @@
+.Login.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.Login.section form button {
+  height: 50px;
+}
+.Login.section form .MuiOutlinedInput-input {
+  padding: 17.5px 14px;
+}
+.Login.section .MuiCardContent-root {
+  padding: 30px 25px;
+}
+.Login.section .small-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Login.section .small-message div {
+  width: 34%;
+  background: #ebe4fd;
+  height: 1px;
+}
+.Login.section .small-message p {
+  width: 50%;
+  text-align: center;
+}
+.Login.section .third-party-signin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Login.section .third-party-signin .clickPopUp {
+  width: 30%;
+}
+.Login.section .third-party-signin .clickPopUp button {
+  width: 100%;
+  background: #eaf3f5;
+  border: 0;
+  border-radius: 4px;
+  padding: 20px;
+  outline: none;
+  border-bottom: 2px solid #eaf3f5;
+}
+.Login.section .third-party-signin .clickPopUp button span {
+  color: var(--purple);
+}
+.Login.section .third-party-signin .clickPopUp button:hover {
+  border-bottom: 2px solid var(--app-purple);
+}
